@@ -1,0 +1,44 @@
+.recorder {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+
+  &__content {
+    display: flex;
+    gap: 1.5rem;
+    margin: 1rem 0 2rem 0;
+  }
+
+  &__clear-button {
+    @include rec-button;
+
+    background-color: rgb(54, 57, 58);
+    color: lightgray;
+    transition: all .3s;
+
+    &:hover {
+      opacity: .85;
+      transform: translateY(-2px);
+      color: white
+    }
+  }
+
+  &__start, &__stop {
+    @include rec-button;
+    transition: all .3s;
+
+    &:hover {
+      opacity: .85;
+      box-shadow: 0rem .5rem 1rem rgba(black, .4);
+    }
+  }
+
+  &__start {
+    background-color: green;
+    color: lightcyan;
+  }
+  &__stop {
+    background-color: rgb(206, 3, 3);
+    color: lightcyan;
+  }
+}

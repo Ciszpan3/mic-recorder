@@ -1,0 +1,14 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  border: 1px solid black;
+  margin: 0 auto;
+  margin-top: 5rem;
+  border-radius: 10px;
+  width: fit-content;
+  font-size: 1.8rem;
+}

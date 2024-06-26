@@ -1,0 +1,9 @@
+@mixin rec-button {
+  &{
+    padding: .5rem 1.2rem;
+    border: 1px solid black;
+    font-size: 1.6rem;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+}
